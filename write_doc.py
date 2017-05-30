@@ -1,9 +1,11 @@
 import pydoc
 import shutil
 
-import tabtree
-pydoc.writedoc(tabtree)
-shutil.move('tabtree.html', 'doc/tabtree.html')
-import tabtree.parser
-pydoc.writedoc(tabtree.parser)
-shutil.move('tabtree.parser.html', 'doc/tabtree.parser.html')
+import pcap2puml
+pydoc.writedoc(pcap2puml)
+shutil.move('pcap2puml.html', 'doc/pcap2puml.html')
+import pcap2puml.puml
+pydoc.writedoc(pcap2puml.puml)
+shutil.move('pcap2puml.puml.html', 'doc/pcap2puml.puml.html')
+pydoc.writedoc(pcap2puml.pcap)
+shutil.move('pcap2puml.pcap.html', 'doc/pcap2puml.pcap.html')
