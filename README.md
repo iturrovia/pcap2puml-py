@@ -7,4 +7,4 @@
 
 ## How to use pcap2puml?
 
-See example at pcap2puml-example.ipynb
+See example at pcap2puml-example.ipynb (https://github.com/fran-ovia/pcap2puml-py/blob/master/pcap2puml-example.ipynb)
