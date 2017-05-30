@@ -110,7 +110,7 @@ class VoipTemplate(object):
 	def packets_to_seqevents(self, packets):
 		seqevents = []
 		supported_packets = filter(lambda packet: has_layer(packet, 'sip'), packets)
-		for packet in packets:
+		for packet in supported_packets:
 			for seqevent in self.packet_to_seqevents(packet):
 				seqevents.append(seqevent)
 		return seqevents

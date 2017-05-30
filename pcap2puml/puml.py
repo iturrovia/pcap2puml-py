@@ -74,9 +74,9 @@ class SeqDiagram(object):
 		if(color != None):
 			formatted_str = '<font color={}>{}</font>'.format(color, formatted_str)
 		if(bold == True):
-			formatted_str = '<b>{}<b>'.format(formatted_str)
+			formatted_str = '<b>{}</b>'.format(formatted_str)
 		if(underlined == True):
-			formatted_str = '<u>{}<u>'.format(formatted_str)
+			formatted_str = '<u>{}</u>'.format(formatted_str)
 		return formatted_str
 
 	def __get_message_line_str(message_line):
