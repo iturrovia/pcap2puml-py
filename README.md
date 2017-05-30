@@ -1,6 +1,4 @@
 ## pcap2puml - Creating PlantUML diagrams from PCAP files
-[![Build Status](https://travis-ci.org/fran-ovia/pcap2puml-py.svg?branch=master)](https://travis-ci.org/fran-ovia/pcap2puml-py)
-[![PyPI](http://img.shields.io/pypi/v/pcap2puml.svg)](https://pypi.python.org/pypi/pcap2puml)
 
 1. pcap2puml is a tiny package to create PlantUML diagrams from PCAP files.
 2. The API is designed to make PlantUML diagrams out of any network packets, but templates for VoIP (SIP-RTP+DNS+Diameter) are provided.
